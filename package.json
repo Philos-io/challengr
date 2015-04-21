@@ -32,7 +32,9 @@
     "org.apache.cordova.console",
     "com.ionic.keyboard"
   ],
-  "cordovaPlatforms": [],
+  "cordovaPlatforms": [
+    "ios"
+  ],
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

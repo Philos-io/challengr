@@ -19,19 +19,17 @@
     <script src="cordova.js"></script>
 
     <!-- your app's js -->
-    
+
     <script src="//cdn.jsdelivr.net/satellizer/0.9.4/satellizer.min.js"></script>
     <script src="js/app.js"></script>
   </head>
   <body ng-app="challengr">
+    <!-- <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button class="button-clear">
+        <i class="ion-arrow-left-a"></i>
+      </ion-nav-back-button>
+    </ion-nav-bar> -->
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable bar-positive">
-        <h1 class="title">Challengr</h1>
-      </ion-header-bar>
-      <ion-content ng-controller="LoginController as vm">
-        <button ng-click="vm.authenticate('facebook')">Sign in with Facebook</button>
-      </ion-content>
-    </ion-pane>
+    <ion-nav-view></ion-nav-view>
   </body>
 </html>
