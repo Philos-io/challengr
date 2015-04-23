@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+
+.title img{
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+}
+.game-title{
+	text-align: center;
+  	font-size: x-large;
+  	font-weight: bold;
+}
+
+.item-body img{
+	width: 100px;
+  	height: 100px;
+  	border-radius: 50%;
+}
+
+.score{
+	text-align: center;
+  	font-size: 40px;
+}
+
+.score.winner{
+	color: red;
+}
+
+.score.loser{
+	color: green;
+}

@@ -1,0 +1,247 @@
+2015-04-21 05:29:29.140 challengr[57806:793599] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/E878A8C7-E76D-441E-8636-E65E6FA726AF/Library/Cookies/Cookies.binarycookies
+2015-04-21 05:29:29.317 challengr[57806:793599] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 05:29:29.317 challengr[57806:793599] Multi-tasking -> Device: YES, App: YES
+2015-04-21 05:29:29.327 challengr[57806:793599] Unlimited access to network resources
+2015-04-21 05:29:29.597 challengr[57806:793599] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 05:29:29.598 challengr[57806:793599] [CDVTimer][keyboard] 0.137031ms
+2015-04-21 05:29:29.598 challengr[57806:793599] [CDVTimer][TotalPluginStartup] 0.286043ms
+2015-04-21 05:29:30.055 challengr[57806:793599] Resetting plugins due to page load.
+2015-04-21 05:29:30.242 challengr[57806:793599] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/7A5EA7B4-35B6-4F76-BD25-028F4628F876/challengr.app/www/index.html
+2015-04-21 05:29:30.259 challengr[57806:793599] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 05:29:30.259 challengr[57806:793599] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 05:29:30.259 challengr[57806:793599] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1353831160",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:07:35.213 challengr[64354:1000686] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/FC084F7E-DA81-4510-8AB0-DD114B47BA41/Library/Cookies/Cookies.binarycookies
+2015-04-21 22:07:35.403 challengr[64354:1000686] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 22:07:35.404 challengr[64354:1000686] Multi-tasking -> Device: YES, App: YES
+2015-04-21 22:07:35.414 challengr[64354:1000686] Unlimited access to network resources
+2015-04-21 22:07:35.673 challengr[64354:1000686] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 22:07:35.673 challengr[64354:1000686] [CDVTimer][keyboard] 0.159025ms
+2015-04-21 22:07:35.673 challengr[64354:1000686] [CDVTimer][TotalPluginStartup] 0.297010ms
+2015-04-21 22:07:35.828 challengr[64354:1000686] Resetting plugins due to page load.
+2015-04-21 22:07:36.010 challengr[64354:1000686] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/6521E0F8-9E3C-4486-8FDB-D25BB957C610/challengr.app/www/index.html
+2015-04-21 22:07:36.026 challengr[64354:1000686] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:07:36.026 challengr[64354:1000686] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:07:36.026 challengr[64354:1000686] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device67297636",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:08:05.215 challengr[64354:1000686] Simulator slow-motion animations are now on
+2015-04-21 22:08:34.820 challengr[64354:1000686] Simulator slow-motion animations are now off
+2015-04-21 22:09:55.654 challengr[64705:1003147] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/87EA05FC-06AA-4F6D-8C7B-6FBD32097F2C/Library/Cookies/Cookies.binarycookies
+2015-04-21 22:09:55.715 challengr[64705:1003147] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 22:09:55.716 challengr[64705:1003147] Multi-tasking -> Device: YES, App: YES
+2015-04-21 22:09:55.717 challengr[64705:1003147] Unlimited access to network resources
+2015-04-21 22:09:55.827 challengr[64705:1003147] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 22:09:55.828 challengr[64705:1003147] [CDVTimer][keyboard] 0.173986ms
+2015-04-21 22:09:55.828 challengr[64705:1003147] [CDVTimer][TotalPluginStartup] 0.329018ms
+2015-04-21 22:09:55.867 challengr[64705:1003147] Resetting plugins due to page load.
+2015-04-21 22:09:55.966 challengr[64705:1003147] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/9CAFDA9B-5F76-4193-8C32-F043E93E96A9/challengr.app/www/index.html
+2015-04-21 22:09:55.977 challengr[64705:1003147] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:09:55.977 challengr[64705:1003147] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:09:55.978 challengr[64705:1003147] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1832129911",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:10:22.275 challengr[64705:1003147] Resetting plugins due to page load.
+2015-04-21 22:10:22.457 challengr[64705:1003147] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/9CAFDA9B-5F76-4193-8C32-F043E93E96A9/challengr.app/www/index.html
+2015-04-21 22:10:22.472 challengr[64705:1003147] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:10:22.472 challengr[64705:1003147] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:10:22.472 challengr[64705:1003147] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device591605228",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:11:16.617 challengr[65033:1004750] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/ADA35149-14B6-4FDF-9AD0-9325E4897EAD/Library/Cookies/Cookies.binarycookies
+2015-04-21 22:11:16.676 challengr[65033:1004750] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 22:11:16.676 challengr[65033:1004750] Multi-tasking -> Device: YES, App: YES
+2015-04-21 22:11:16.678 challengr[65033:1004750] Unlimited access to network resources
+2015-04-21 22:11:16.785 challengr[65033:1004750] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 22:11:16.785 challengr[65033:1004750] [CDVTimer][keyboard] 0.138998ms
+2015-04-21 22:11:16.785 challengr[65033:1004750] [CDVTimer][TotalPluginStartup] 0.253975ms
+2015-04-21 22:11:16.832 challengr[65033:1004750] Resetting plugins due to page load.
+2015-04-21 22:11:16.934 challengr[65033:1004750] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/116C4824-9DF1-4495-AE19-EE2A99AB522D/challengr.app/www/index.html
+2015-04-21 22:11:16.950 challengr[65033:1004750] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:11:16.950 challengr[65033:1004750] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:11:16.950 challengr[65033:1004750] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1209176468",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:11:40.009 challengr[65033:1004750] Resetting plugins due to page load.
+2015-04-21 22:11:40.192 challengr[65033:1004750] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/116C4824-9DF1-4495-AE19-EE2A99AB522D/challengr.app/www/index.html
+2015-04-21 22:11:40.211 challengr[65033:1004750] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:11:40.212 challengr[65033:1004750] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:11:40.212 challengr[65033:1004750] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device313071214",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:12:56.914 challengr[65362:1006495] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/E422B5D7-783C-4C79-8AE4-74CE7F359947/Library/Cookies/Cookies.binarycookies
+2015-04-21 22:12:56.967 challengr[65362:1006495] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 22:12:56.967 challengr[65362:1006495] Multi-tasking -> Device: YES, App: YES
+2015-04-21 22:12:56.969 challengr[65362:1006495] Unlimited access to network resources
+2015-04-21 22:12:57.073 challengr[65362:1006495] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 22:12:57.073 challengr[65362:1006495] [CDVTimer][keyboard] 0.147045ms
+2015-04-21 22:12:57.074 challengr[65362:1006495] [CDVTimer][TotalPluginStartup] 0.297010ms
+2015-04-21 22:12:57.115 challengr[65362:1006495] Resetting plugins due to page load.
+2015-04-21 22:12:57.242 challengr[65362:1006495] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/1E6B31A2-7FC8-4969-8F42-4D0B44872179/challengr.app/www/index.html#/contact
+2015-04-21 22:12:57.334 challengr[65362:1006495] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:12:57.334 challengr[65362:1006495] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:12:57.334 challengr[65362:1006495] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1078718774",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:13:04.769 challengr[65362:1006495] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-04-21 22:13:04.769 challengr[65362:1006495] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:13:04.770 challengr[65362:1006495] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-04-21 22:14:19.238 challengr[65634:1008422] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/CDECE16B-8DF2-4F11-BC17-7C30822E3623/Library/Cookies/Cookies.binarycookies
+2015-04-21 22:14:19.322 challengr[65634:1008422] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 22:14:19.322 challengr[65634:1008422] Multi-tasking -> Device: YES, App: YES
+2015-04-21 22:14:19.323 challengr[65634:1008422] Unlimited access to network resources
+2015-04-21 22:14:19.447 challengr[65634:1008422] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 22:14:19.447 challengr[65634:1008422] [CDVTimer][keyboard] 0.165999ms
+2015-04-21 22:14:19.448 challengr[65634:1008422] [CDVTimer][TotalPluginStartup] 0.357985ms
+2015-04-21 22:14:19.489 challengr[65634:1008422] Resetting plugins due to page load.
+2015-04-21 22:14:19.611 challengr[65634:1008422] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/0C5550F8-5452-46A9-A5C6-6913E77676D7/challengr.app/www/index.html#/contact
+2015-04-21 22:14:19.664 challengr[65634:1008422] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:14:19.665 challengr[65634:1008422] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:14:19.665 challengr[65634:1008422] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device198148068",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-21 22:18:08.154 challengr[66120:1011985] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/F2BBFFE0-DB51-4A99-AC4C-56BE04F9BAEA/Library/Cookies/Cookies.binarycookies
+2015-04-21 22:18:08.212 challengr[66120:1011985] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 22:18:08.212 challengr[66120:1011985] Multi-tasking -> Device: YES, App: YES
+2015-04-21 22:18:08.215 challengr[66120:1011985] Unlimited access to network resources
+2015-04-21 22:18:08.325 challengr[66120:1011985] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-21 22:18:08.326 challengr[66120:1011985] [CDVTimer][keyboard] 0.146031ms
+2015-04-21 22:18:08.326 challengr[66120:1011985] [CDVTimer][TotalPluginStartup] 0.313044ms
+2015-04-21 22:18:08.370 challengr[66120:1011985] Resetting plugins due to page load.
+2015-04-21 22:18:08.480 challengr[66120:1011985] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/20F8EC36-B0A5-4B9B-B966-2DBD8A8C8DD0/challengr.app/www/index.html#/contact
+2015-04-21 22:18:08.528 challengr[66120:1011985] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-21 22:18:08.529 challengr[66120:1011985] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-21 22:18:08.529 challengr[66120:1011985] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1989986103",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-22 21:10:06.336 challengr[72630:1215702] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/F07A5939-E8DC-429E-AD32-EB9E9D952D0D/Library/Cookies/Cookies.binarycookies
+2015-04-22 21:10:06.461 challengr[72630:1215702] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-22 21:10:06.461 challengr[72630:1215702] Multi-tasking -> Device: YES, App: YES
+2015-04-22 21:10:06.471 challengr[72630:1215702] Unlimited access to network resources
+2015-04-22 21:10:06.734 challengr[72630:1215702] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-22 21:10:06.734 challengr[72630:1215702] [CDVTimer][keyboard] 0.164986ms
+2015-04-22 21:10:06.734 challengr[72630:1215702] [CDVTimer][TotalPluginStartup] 0.349045ms
+2015-04-22 21:10:06.876 challengr[72630:1215702] Resetting plugins due to page load.
+2015-04-22 21:10:07.066 challengr[72630:1215702] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/5B4BE98E-4CC1-4F82-B8F0-6CD535F423D6/challengr.app/www/index.html#/contact
+2015-04-22 21:10:07.199 challengr[72630:1215702] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-22 21:10:07.199 challengr[72630:1215702] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-22 21:10:07.199 challengr[72630:1215702] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1288801889",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-22 21:10:16.424 challengr[72630:1215702] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-04-22 21:10:16.424 challengr[72630:1215702] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-22 21:10:16.424 challengr[72630:1215702] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-04-22 21:10:19.131 challengr[72630:1215702] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-04-22 21:10:19.131 challengr[72630:1215702] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-22 21:10:19.131 challengr[72630:1215702] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-04-23 08:36:52.479 challengr[73543:1265581] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Data/Application/1A12F279-D161-47BF-9484-2FA1E5B797E2/Library/Cookies/Cookies.binarycookies
+2015-04-23 08:36:52.554 challengr[73543:1265581] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-23 08:36:52.555 challengr[73543:1265581] Multi-tasking -> Device: YES, App: YES
+2015-04-23 08:36:52.556 challengr[73543:1265581] Unlimited access to network resources
+2015-04-23 08:36:52.673 challengr[73543:1265581] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-04-23 08:36:52.674 challengr[73543:1265581] [CDVTimer][keyboard] 0.149012ms
+2015-04-23 08:36:52.674 challengr[73543:1265581] [CDVTimer][TotalPluginStartup] 0.281990ms
+2015-04-23 08:36:52.737 challengr[73543:1265581] Resetting plugins due to page load.
+2015-04-23 08:36:52.851 challengr[73543:1265581] Finished load of: file:///Users/davyengone/Library/Developer/CoreSimulator/Devices/45575483-AAFB-4873-A11A-6CAD6A5AF709/data/Containers/Bundle/Application/70AAC3EF-C2F8-496E-8353-B861B7688258/challengr.app/www/index.html#/contact
+2015-04-23 08:36:52.942 challengr[73543:1265581] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2015-04-23 08:36:52.942 challengr[73543:1265581] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-23 08:36:52.942 challengr[73543:1265581] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device977405038",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2015-04-23 08:37:11.419 challengr[73543:1265581] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-04-23 08:37:11.419 challengr[73543:1265581] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-23 08:37:11.419 challengr[73543:1265581] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-04-23 08:37:24.601 challengr[73543:1265581] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-04-23 08:37:24.601 challengr[73543:1265581] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-23 08:37:24.601 challengr[73543:1265581] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
