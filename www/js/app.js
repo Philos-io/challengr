@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('challengr', ['ionic', 'satellizer'])
+angular.module('challengr', ['ionic']) //satellizer
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -33,17 +33,32 @@ angular.module('challengr', ['ionic', 'satellizer'])
     url: '/challengr/:userid',
     templateUrl: 'templates/challengr.html',
     controller: 'ChallengrController as vm'
+  })
+  .state('new', {
+    url: '/challengr/:userid/new',
+    templateUrl: 'templates/challengrDetails.html',
+    controller: 'ChallengrController as vm'
+  })
+  .state('details', {
+    url: '/challengr/:userid/:challengrid',
+    templateUrl: 'templates/challengrDetails.html',
+    controller: 'ChallengrController as vm'
+  })
+  .state('details.new', {
+    url: '/new',
+    templateUrl: 'templates/challengrDetails.html',
+    controller: 'ChallengrController as vm'
   });
 
   $urlRouterProvider.otherwise('/contact');
 })
-.config(function($authProvider){
-    $authProvider.facebook({
-      clientId: '1570189643235177',
-      url: '/auth/facebook',
-      scope: 'user_friends'
-    });
-})
+// .config(function($authProvider){
+//     $authProvider.facebook({
+//       clientId: '1570189643235177',
+//       url: '/auth/facebook',
+//       scope: 'user_friends'
+//     });
+// })
 .controller('LoginController', function($auth) {
     this.authenticate = function(provider) {
       $auth.authenticate(provider);

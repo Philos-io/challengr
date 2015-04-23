@@ -1,34 +1,28 @@
-<div class="bar bar-header bar-positive">
-  <a class="button button-icon ion-ios-settings-strong" href="#/dashboard"></a>
-  <h1 class="title">
-    <img src="img/team_mehdi.jpg">
-  </h1>
-  <button class="button button-icon icon ion-person-add" ng-click="vm.invite()"></button>
-</div>
-
-<br/>
-<br/>
-
-<div class="list">
-
-    <a class="item item-avatar" href="#/challengr/davyengone">
-      <img src="img/team_davy.jpg">
-      <h2>Davy Engone</h2>
-      <p>Bring up the challenge.</p>
-    </a>
-    <a class="item item-avatar" href="#/challengr/maxcz">
-      <img src="img/team_max.jpg">
-      <h2>Max Cz</h2>
-      <p>Always up for a game.</p>
-    </a>
-    <a class="item item-avatar" href="#/challengr/davyengone">
-      <img src="img/team_davy.jpg">
-      <h2>Martine Nze</h2>
-      <p>Handball anyone?</p>
-    </a>
-</div>
-<div class="bar bar-footer bar-positive">
-  <h1 class="title">
-    <button class="button button-icon icon-left ion-person-add"></button>
-  </h1>
-</div>
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-positive">
+    <h1 class="title">
+      <img src="img/team_mehdi.jpg">
+    </h1>
+    <button class="button button-icon icon ion-search" ng-click="vm.invite()"></button>
+  </ion-header-bar>
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/challengr/davyengone">
+        <img src="img/team_davy.jpg">
+        <h2>Davy Engone</h2>
+        <p>Bring up the challenge.</p>
+        <i class="icon ion-chevron-right ion-accessory"></i>
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  <ion-footer-bar align-title="center" class="bar-positive">
+    <h1 class="title">
+      <button class="button button-icon icon-left ion-person-add">
+        Add Friends
+      </button>
+    </h1>
+  </ion-footer-bar>
+</ion-view>
