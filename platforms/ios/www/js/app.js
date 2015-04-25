@@ -27,7 +27,7 @@ angular.module('challengr', ['ionic']) //satellizer
   .state('contact', {
     url: '/contact',
     templateUrl: 'templates/contact.html',
-    controller: 'ChallengrController as vm'
+    controller: 'FriendController as vm'
   })
   .state('challengr', {
     url: '/challengr/:userid',
@@ -48,9 +48,14 @@ angular.module('challengr', ['ionic']) //satellizer
     url: '/new',
     templateUrl: 'templates/challengrDetails.html',
     controller: 'ChallengrController as vm'
+  })
+  .state('login', {
+    url: '/login',
+    templateUrl: 'templates/login.html',
+    controller: 'LoginController as vm'
   });
 
-  $urlRouterProvider.otherwise('/contact');
+  $urlRouterProvider.otherwise('/login');
 })
 // .config(function($authProvider){
 //     $authProvider.facebook({
@@ -59,13 +64,19 @@ angular.module('challengr', ['ionic']) //satellizer
 //       scope: 'user_friends'
 //     });
 // })
-.controller('LoginController', function($auth) {
-    this.authenticate = function(provider) {
-      $auth.authenticate(provider);
+.controller('LoginController', function($state, $timeout) {
+    // this.authenticate = function() {
+    //   $auth.authenticate('facebook');
+    // };
+
+    this.authenticate = function(){
+      $timeout(function(){
+        $state.go('contact');
+      }, 2000);
     };
 })
-.controller('ChallengrController', function($scope, $ionicModal) {
-  // Create the login modal that we will use later
+.controller('FriendController', function($scope, userService, $ionicModal, AppConfig){
+
   var self = this;
 
   $ionicModal.fromTemplateUrl('templates/invite.html', {
@@ -86,6 +97,64 @@ angular.module('challengr', ['ionic']) //satellizer
 
   // Perform the login action when the user submits the login form
   self.inviteSent = function() {
+  };
+
+
+  function activate(){
+    if (AppConfig.currentUser) {
+      self.currentUser = AppConfig.currentUser;
+
+      return
+    }
+
+    userService.getCurrentUser().then(function(response){
+      self.currentUser = response.current;
+
+      AppConfig.currentUser = self.currentUser;
+    });
+  }
+
+  activate();
+})
+.controller('ChallengrController', function($state, $ionicModal, $ionicHistory, AppConfig, userService) {
+  // Create the login modal that we will use later
+  var self = this;
+
+  function activate(){
+
+    if (!AppConfig.currentUser) {
+      
+      $state.go('contact');
+      
+      return;
+    }
+
+    userService.getUserByID($state.params.userid)
+    .then(function(friend){
+      self.friend = friend;
+    });
+
+
+    self.lastChallenges = [];
+
+    self.currentUser = AppConfig.currentUser;
+
+    self.challenges = AppConfig.currentUser.challengr.filter(function(item){
+      return item[$state.params.userid] !== undefined;
+    })[0][$state.params.userid];
+
+    for(var key in self.challenges){
+      self.lastChallenges.push({
+        name: key,
+        challenges: self.challenges[key]
+      });
+    }
+  }
+
+  activate();
+
+  self.goBack = function(){
+    $ionicHistory.goBack();
   };
 
 });

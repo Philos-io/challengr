@@ -1,16 +1,16 @@
 <ion-view>
   <ion-header-bar align-title="center" class="bar-positive">
     <h1 class="title">
-      <img src="img/team_mehdi.jpg">
+      <img ng-src="{{vm.currentUser.picture}}">
+      
     </h1>
-    <button class="button button-icon icon ion-search" ng-click="vm.invite()"></button>
   </ion-header-bar>
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/challengr/davyengone">
-        <img src="img/team_davy.jpg">
-        <h2>Davy Engone</h2>
-        <p>Bring up the challenge.</p>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="friend in vm.currentUser.friends" type="item-text-wrap" ui-sref="challengr({userid:friend.displayName, current: vm.currentUser})">
+        <img ng-src="{{friend.picture}}">
+        <h2 ng-bind="friend.displayName"></h2>
+        <p ng-bind="friend.description"></p>
         <i class="icon ion-chevron-right ion-accessory"></i>
         <ion-option-button class="button-assertive" ng-click="remove(chat)">
           Delete
@@ -20,7 +20,7 @@
   </ion-content>
   <ion-footer-bar align-title="center" class="bar-positive">
     <h1 class="title">
-      <button class="button button-icon icon-left ion-person-add">
+      <button class="button button-icon icon-left ion-person-add" ng-click="vm.invite()">
         Add Friends
       </button>
     </h1>

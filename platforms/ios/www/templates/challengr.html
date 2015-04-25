@@ -1,24 +1,17 @@
 <ion-view>
   <ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-icon icon ion-arrow-left-c" ng-click="vm.goBack()"></button>
     <h1 class="title">
-      <img src="img/team_mehdi.jpg">
-      <img src="img/team_davy.jpg">
+      <img ng-src="{{vm.currentUser.picture}}">
+      <img ng-src="{{vm.friend.picture}}">
     </h1>
     <button class="button button-icon icon ion-plus"></button>
   </ion-header-bar>
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/challengr/davyengone/fifa">
-        <p>Basketball: 3 points shouts</p>
-        <span class="badge badge-assertive">1</span>
-      </ion-item>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/challengr/davyengone/fifa">
-        <p>FIFA</p>
-        <span class="badge badge-assertive">1</span>
-      </ion-item>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/challengr/davyengone/fifa">
-        <p>Tennis</p>
-        <span class="badge badge-assertive">1</span>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="challenge in vm.lastChallenges" type="item-text-wrap" href="#/challengr/{{vm.friend.displayName}}/{{challenge.name}}">
+        <p ng-bind="challenge.name"></p>
+        <span class="badge badge-balanced winner">1</span>
       </ion-item>
     </ion-list>
   </ion-content>
